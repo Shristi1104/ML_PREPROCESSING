@@ -9,3 +9,4 @@ Type "help", "copyright", "credits" or "license()" for more information.
 ... imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
 ... imputer.fit(dataset)
 ... dataset_imputed = imputer.transform(dataset)
+... print("Updated matrix of features: \n", dataset_imputed)
